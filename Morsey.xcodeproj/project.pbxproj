@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8AE1C231D42B20E00EF023C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C221D42B20E00EF023C /* AppDelegate.swift */; };
+		A8AE1C251D42B20E00EF023C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C241D42B20E00EF023C /* ViewController.swift */; };
+		A8AE1C281D42B20E00EF023C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE1C261D42B20E00EF023C /* Main.storyboard */; };
+		A8AE1C2B1D42B20E00EF023C /* Morsey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C291D42B20E00EF023C /* Morsey.xcdatamodeld */; };
+		A8AE1C2D1D42B20E00EF023C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AE1C2C1D42B20E00EF023C /* Assets.xcassets */; };
+		A8AE1C301D42B20E00EF023C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE1C2E1D42B20E00EF023C /* LaunchScreen.storyboard */; };
+		A8AE1C3B1D42B20E00EF023C /* MorseyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C3A1D42B20E00EF023C /* MorseyTests.swift */; };
+		A8AE1C461D42B20E00EF023C /* MorseyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C451D42B20E00EF023C /* MorseyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8AE1C371D42B20E00EF023C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8AE1C171D42B20E00EF023C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8AE1C1E1D42B20E00EF023C;
+			remoteInfo = Morsey;
+		};
+		A8AE1C421D42B20E00EF023C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8AE1C171D42B20E00EF023C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8AE1C1E1D42B20E00EF023C;
+			remoteInfo = Morsey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8AE1C1F1D42B20E00EF023C /* Morsey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morsey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AE1C221D42B20E00EF023C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8AE1C241D42B20E00EF023C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8AE1C271D42B20E00EF023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8AE1C2A1D42B20E00EF023C /* Morsey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Morsey.xcdatamodel; sourceTree = "<group>"; };
+		A8AE1C2C1D42B20E00EF023C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8AE1C2F1D42B20E00EF023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8AE1C311D42B20E00EF023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8AE1C361D42B20E00EF023C /* MorseyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AE1C3A1D42B20E00EF023C /* MorseyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseyTests.swift; sourceTree = "<group>"; };
+		A8AE1C3C1D42B20E00EF023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8AE1C411D42B20E00EF023C /* MorseyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AE1C451D42B20E00EF023C /* MorseyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseyUITests.swift; sourceTree = "<group>"; };
+		A8AE1C471D42B20E00EF023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8AE1C1C1D42B20E00EF023C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE1C331D42B20E00EF023C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE1C3E1D42B20E00EF023C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8AE1C161D42B20E00EF023C = {
+			isa = PBXGroup;
+			children = (
+				A8AE1C211D42B20E00EF023C /* Morsey */,
+				A8AE1C391D42B20E00EF023C /* MorseyTests */,
+				A8AE1C441D42B20E00EF023C /* MorseyUITests */,
+				A8AE1C201D42B20E00EF023C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8AE1C201D42B20E00EF023C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8AE1C1F1D42B20E00EF023C /* Morsey.app */,
+				A8AE1C361D42B20E00EF023C /* MorseyTests.xctest */,
+				A8AE1C411D42B20E00EF023C /* MorseyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8AE1C211D42B20E00EF023C /* Morsey */ = {
+			isa = PBXGroup;
+			children = (
+				A8AE1C221D42B20E00EF023C /* AppDelegate.swift */,
+				A8AE1C241D42B20E00EF023C /* ViewController.swift */,
+				A8AE1C261D42B20E00EF023C /* Main.storyboard */,
+				A8AE1C2C1D42B20E00EF023C /* Assets.xcassets */,
+				A8AE1C2E1D42B20E00EF023C /* LaunchScreen.storyboard */,
+				A8AE1C311D42B20E00EF023C /* Info.plist */,
+				A8AE1C291D42B20E00EF023C /* Morsey.xcdatamodeld */,
+			);
+			path = Morsey;
+			sourceTree = "<group>";
+		};
+		A8AE1C391D42B20E00EF023C /* MorseyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8AE1C3A1D42B20E00EF023C /* MorseyTests.swift */,
+				A8AE1C3C1D42B20E00EF023C /* Info.plist */,
+			);
+			path = MorseyTests;
+			sourceTree = "<group>";
+		};
+		A8AE1C441D42B20E00EF023C /* MorseyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8AE1C451D42B20E00EF023C /* MorseyUITests.swift */,
+				A8AE1C471D42B20E00EF023C /* Info.plist */,
+			);
+			path = MorseyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8AE1C1E1D42B20E00EF023C /* Morsey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8AE1C4A1D42B20E00EF023C /* Build configuration list for PBXNativeTarget "Morsey" */;
+			buildPhases = (
+				A8AE1C1B1D42B20E00EF023C /* Sources */,
+				A8AE1C1C1D42B20E00EF023C /* Frameworks */,
+				A8AE1C1D1D42B20E00EF023C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morsey;
+			productName = Morsey;
+			productReference = A8AE1C1F1D42B20E00EF023C /* Morsey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8AE1C351D42B20E00EF023C /* MorseyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8AE1C4D1D42B20E00EF023C /* Build configuration list for PBXNativeTarget "MorseyTests" */;
+			buildPhases = (
+				A8AE1C321D42B20E00EF023C /* Sources */,
+				A8AE1C331D42B20E00EF023C /* Frameworks */,
+				A8AE1C341D42B20E00EF023C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8AE1C381D42B20E00EF023C /* PBXTargetDependency */,
+			);
+			name = MorseyTests;
+			productName = MorseyTests;
+			productReference = A8AE1C361D42B20E00EF023C /* MorseyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8AE1C401D42B20E00EF023C /* MorseyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8AE1C501D42B20E00EF023C /* Build configuration list for PBXNativeTarget "MorseyUITests" */;
+			buildPhases = (
+				A8AE1C3D1D42B20E00EF023C /* Sources */,
+				A8AE1C3E1D42B20E00EF023C /* Frameworks */,
+				A8AE1C3F1D42B20E00EF023C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8AE1C431D42B20E00EF023C /* PBXTargetDependency */,
+			);
+			name = MorseyUITests;
+			productName = MorseyUITests;
+			productReference = A8AE1C411D42B20E00EF023C /* MorseyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8AE1C171D42B20E00EF023C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stephen Buck";
+				TargetAttributes = {
+					A8AE1C1E1D42B20E00EF023C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A8AE1C351D42B20E00EF023C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A8AE1C1E1D42B20E00EF023C;
+					};
+					A8AE1C401D42B20E00EF023C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A8AE1C1E1D42B20E00EF023C;
+					};
+				};
+			};
+			buildConfigurationList = A8AE1C1A1D42B20E00EF023C /* Build configuration list for PBXProject "Morsey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8AE1C161D42B20E00EF023C;
+			productRefGroup = A8AE1C201D42B20E00EF023C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8AE1C1E1D42B20E00EF023C /* Morsey */,
+				A8AE1C351D42B20E00EF023C /* MorseyTests */,
+				A8AE1C401D42B20E00EF023C /* MorseyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8AE1C1D1D42B20E00EF023C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AE1C301D42B20E00EF023C /* LaunchScreen.storyboard in Resources */,
+				A8AE1C2D1D42B20E00EF023C /* Assets.xcassets in Resources */,
+				A8AE1C281D42B20E00EF023C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE1C341D42B20E00EF023C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE1C3F1D42B20E00EF023C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8AE1C1B1D42B20E00EF023C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AE1C2B1D42B20E00EF023C /* Morsey.xcdatamodeld in Sources */,
+				A8AE1C251D42B20E00EF023C /* ViewController.swift in Sources */,
+				A8AE1C231D42B20E00EF023C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE1C321D42B20E00EF023C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AE1C3B1D42B20E00EF023C /* MorseyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AE1C3D1D42B20E00EF023C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AE1C461D42B20E00EF023C /* MorseyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8AE1C381D42B20E00EF023C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8AE1C1E1D42B20E00EF023C /* Morsey */;
+			targetProxy = A8AE1C371D42B20E00EF023C /* PBXContainerItemProxy */;
+		};
+		A8AE1C431D42B20E00EF023C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8AE1C1E1D42B20E00EF023C /* Morsey */;
+			targetProxy = A8AE1C421D42B20E00EF023C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8AE1C261D42B20E00EF023C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AE1C271D42B20E00EF023C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8AE1C2E1D42B20E00EF023C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AE1C2F1D42B20E00EF023C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8AE1C481D42B20E00EF023C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8AE1C491D42B20E00EF023C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8AE1C4B1D42B20E00EF023C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Morsey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.Morsey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8AE1C4C1D42B20E00EF023C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Morsey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.Morsey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8AE1C4E1D42B20E00EF023C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorseyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morsey.app/Morsey";
+			};
+			name = Debug;
+		};
+		A8AE1C4F1D42B20E00EF023C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorseyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morsey.app/Morsey";
+			};
+			name = Release;
+		};
+		A8AE1C511D42B20E00EF023C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MorseyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Morsey;
+			};
+			name = Debug;
+		};
+		A8AE1C521D42B20E00EF023C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MorseyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Morsey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8AE1C1A1D42B20E00EF023C /* Build configuration list for PBXProject "Morsey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AE1C481D42B20E00EF023C /* Debug */,
+				A8AE1C491D42B20E00EF023C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8AE1C4A1D42B20E00EF023C /* Build configuration list for PBXNativeTarget "Morsey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AE1C4B1D42B20E00EF023C /* Debug */,
+				A8AE1C4C1D42B20E00EF023C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8AE1C4D1D42B20E00EF023C /* Build configuration list for PBXNativeTarget "MorseyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AE1C4E1D42B20E00EF023C /* Debug */,
+				A8AE1C4F1D42B20E00EF023C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8AE1C501D42B20E00EF023C /* Build configuration list for PBXNativeTarget "MorseyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AE1C511D42B20E00EF023C /* Debug */,
+				A8AE1C521D42B20E00EF023C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8AE1C291D42B20E00EF023C /* Morsey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8AE1C2A1D42B20E00EF023C /* Morsey.xcdatamodel */,
+			);
+			currentVersion = A8AE1C2A1D42B20E00EF023C /* Morsey.xcdatamodel */;
+			path = Morsey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8AE1C171D42B20E00EF023C /* Project object */;
+}
