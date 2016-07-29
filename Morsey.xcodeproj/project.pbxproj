@@ -15,6 +15,7 @@
 		A8AE1C301D42B20E00EF023C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE1C2E1D42B20E00EF023C /* LaunchScreen.storyboard */; };
 		A8AE1C3B1D42B20E00EF023C /* MorseyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C3A1D42B20E00EF023C /* MorseyTests.swift */; };
 		A8AE1C461D42B20E00EF023C /* MorseyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C451D42B20E00EF023C /* MorseyUITests.swift */; };
+		A8AE1C541D42E0F100EF023C /* Morse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C531D42E0F100EF023C /* Morse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A8AE1C411D42B20E00EF023C /* MorseyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AE1C451D42B20E00EF023C /* MorseyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseyUITests.swift; sourceTree = "<group>"; };
 		A8AE1C471D42B20E00EF023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8AE1C531D42E0F100EF023C /* Morse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Morse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A8AE1C2E1D42B20E00EF023C /* LaunchScreen.storyboard */,
 				A8AE1C311D42B20E00EF023C /* Info.plist */,
 				A8AE1C291D42B20E00EF023C /* Morsey.xcdatamodeld */,
+				A8AE1C531D42E0F100EF023C /* Morse.swift */,
 			);
 			path = Morsey;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					A8AE1C1E1D42B20E00EF023C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H9HS8CXZ8K;
 					};
 					A8AE1C351D42B20E00EF023C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AE1C541D42E0F100EF023C /* Morse.swift in Sources */,
 				A8AE1C2B1D42B20E00EF023C /* Morsey.xcdatamodeld in Sources */,
 				A8AE1C251D42B20E00EF023C /* ViewController.swift in Sources */,
 				A8AE1C231D42B20E00EF023C /* AppDelegate.swift in Sources */,
@@ -405,10 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Morsey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.Morsey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Morsey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.Morsey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
