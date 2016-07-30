@@ -7,6 +7,8 @@ Morse Code app written in Swift
 
 This app is a starter project to learn Swift and play with APIs. 
 
+Morse Code comes in handy if you are hanging out at the VFW and nobody wants to talk to you.
+
 Encode any string A-Z, 0-9 into US Morse Code per https://en.wikipedia.org/wiki/Morse_code
 by typing string into input field.  Leave field and conversion is executed and displayed while output area flashes.
 
