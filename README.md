@@ -3,7 +3,7 @@ Morse Code app written in Swift
 
 2016-07-22 Created initial app
 
-2017-07-73 Fixed the gui update
+2017-07-73 Fixed the gui update https://www.youtube.com/watch?v=Q915hFvKRjI
 
 This app is a starter project to learn Swift and play with APIs. 
 
