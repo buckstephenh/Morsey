@@ -11,8 +11,8 @@ import Foundation
 class ViewController: UIViewController {
     @IBOutlet weak var input: UITextField!
     @IBOutlet weak var output: UITextView!
-    func setOutputColor(color:UIColor){
-        dispatch_async(dispatch_get_main_queue(), {
+    func setOutputColor(_ color:UIColor){
+        DispatchQueue.main.async(execute: {
             
             self.output.backgroundColor = color
         })
@@ -24,35 +24,35 @@ class ViewController: UIViewController {
             switch c {
                 
             case ".":
-                setOutputColor(UIColor.redColor())
+                setOutputColor(UIColor.red())
                 
                 usleep(speed * 1)
                 
             case "-":
-                setOutputColor(UIColor.redColor())
+                setOutputColor(UIColor.red())
                 
                 usleep(speed * 3)
             case " ":
-                setOutputColor(UIColor.whiteColor())
+                setOutputColor(UIColor.white())
                 usleep(speed * 1)
             default:
-                setOutputColor(UIColor.blueColor())
+                setOutputColor(UIColor.blue())
                 usleep(speed * 1)
             }
             
-            setOutputColor(UIColor.whiteColor())
+            setOutputColor(UIColor.white())
             usleep(speed * 1)
             
         }
 
     }
-    @IBAction func input(sender: UITextField) {
+    @IBAction func input(_ sender: UITextField) {
         output.text = morseAsDotDash(sender.text!)
         print("output is now " + output.text!)
         
         
         
-        dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),{
+        DispatchQueue.global( attributes: DispatchQueue.GlobalAttributes.qosDefault).async(execute: {
         //Background Thread
             self.flashOutput()
         });

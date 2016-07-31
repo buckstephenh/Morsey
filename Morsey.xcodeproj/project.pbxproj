@@ -194,19 +194,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Stephen Buck";
 				TargetAttributes = {
 					A8AE1C1E1D42B20E00EF023C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = H9HS8CXZ8K;
+						LastSwiftMigration = 0800;
 					};
 					A8AE1C351D42B20E00EF023C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A8AE1C1E1D42B20E00EF023C;
 					};
 					A8AE1C401D42B20E00EF023C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A8AE1C1E1D42B20E00EF023C;
 					};
 				};
@@ -363,6 +366,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -400,7 +404,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -417,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.Morsey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -431,6 +438,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.Morsey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -442,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morsey.app/Morsey";
 			};
 			name = Debug;
@@ -454,6 +464,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morsey.app/Morsey";
 			};
 			name = Release;
@@ -465,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Morsey;
 			};
 			name = Debug;
@@ -476,6 +489,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buckstephenh.MorseyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Morsey;
 			};
 			name = Release;
@@ -499,6 +514,7 @@
 				A8AE1C4C1D42B20E00EF023C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8AE1C4D1D42B20E00EF023C /* Build configuration list for PBXNativeTarget "MorseyTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +523,7 @@
 				A8AE1C4F1D42B20E00EF023C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8AE1C501D42B20E00EF023C /* Build configuration list for PBXNativeTarget "MorseyUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				A8AE1C521D42B20E00EF023C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

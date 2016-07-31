@@ -8,8 +8,8 @@
 
 import Foundation
 
-func morseAsDotDash(input:String)-> String {
-    let inputTemp = input.lowercaseString
+func morseAsDotDash(_ input:String)-> String {
+    let inputTemp = input.lowercased()
     var outputTemp = ""
     for c in inputTemp.characters {
        switch c {
