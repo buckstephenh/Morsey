@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A88314831D4E58B4009A53E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A88314821D4E58B4009A53E1 /* README.md */; };
 		A8AE1C231D42B20E00EF023C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C221D42B20E00EF023C /* AppDelegate.swift */; };
 		A8AE1C251D42B20E00EF023C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1C241D42B20E00EF023C /* ViewController.swift */; };
 		A8AE1C281D42B20E00EF023C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE1C261D42B20E00EF023C /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A88314821D4E58B4009A53E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A8AE1C1F1D42B20E00EF023C /* Morsey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morsey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AE1C221D42B20E00EF023C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8AE1C241D42B20E00EF023C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		A8AE1C161D42B20E00EF023C = {
 			isa = PBXGroup;
 			children = (
+				A88314821D4E58B4009A53E1 /* README.md */,
 				A8AE1C211D42B20E00EF023C /* Morsey */,
 				A8AE1C391D42B20E00EF023C /* MorseyTests */,
 				A8AE1C441D42B20E00EF023C /* MorseyUITests */,
@@ -268,6 +271,7 @@
 			files = (
 				A8AE1C541D42E0F100EF023C /* Morse.swift in Sources */,
 				A8AE1C2B1D42B20E00EF023C /* Morsey.xcdatamodeld in Sources */,
+				A88314831D4E58B4009A53E1 /* README.md in Sources */,
 				A8AE1C251D42B20E00EF023C /* ViewController.swift in Sources */,
 				A8AE1C231D42B20E00EF023C /* AppDelegate.swift in Sources */,
 			);

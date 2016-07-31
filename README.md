@@ -5,6 +5,8 @@ Morse Code app written in Swift
 
 2017-07-73 Fixed the gui update https://www.youtube.com/watch?v=Q915hFvKRjI
 
+2017-07-31 Conversion to Apple Swift version 3.0 (swiftlang-800.0.34 clang-800.0.32) Xcode Version 8.0 beta 3 (8S174q)
+
 This app is a starter project to learn Swift and play with APIs. 
 
 Morse Code comes in handy if you are hanging out at the VFW and nobody wants to talk to you.
